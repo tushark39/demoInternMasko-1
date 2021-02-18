@@ -10,14 +10,11 @@ function App() {
       <section>
         <Hero />
       </section>
-      <section className="test" id="app">
+      <section className="test" id="app" >
       <Search/>
         </section>
-      <section className="test">
+      <section className="test" id="nomination"> 
         <MyNomination/>
-      </section>
-      <section class="test"> 
-    <h2>Section 4</h2>
       </section>
     </main>
 

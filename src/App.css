@@ -4,12 +4,13 @@
   /* min-height: 100vh; */
   background: url("./assets/search-bg.jpg") top center;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 150vh;
   display: flex;
   flex-direction: column;
   color: white;
 }
 .MyNomination{
+  padding-top: 50px;
     /* background: #000 !important; */
     width: 100%;
     /* min-height: 100vh; */
@@ -47,6 +48,13 @@
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
+  }
+}
+@media(max-width:644px){
+  .hero-text{
+    padding-top: 45vh;
+    font-size: 40px;
+    color: #fff;
   }
 }
 /***************************/
