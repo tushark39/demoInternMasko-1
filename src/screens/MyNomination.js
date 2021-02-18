@@ -8,7 +8,7 @@ export const MyNomination = () => {
     const checkAvailablity = () => {
         const data = localStorage.getItem('movieData')
         if (data === null) {
-            setMovie(undefined)
+            setMovie([])
             return false
         }
         else {
